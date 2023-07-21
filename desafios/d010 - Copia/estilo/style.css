@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
+:root{
+    --cor0: #E9D2F4;
+    --cor1: #FFCF99;
+    --cor2: #FFC07F;
+    --cor3: #A5402D;
+    --cor4: #211103;
+
+    --font-padrao: Arial,Verdana,sans-serif;
+    --font-destaque: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: white;
+    font-family: var(--font-padrao);
+    margin: 0px;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.8em;
+}
+

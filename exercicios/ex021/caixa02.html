@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right, #F1E4E8,#CEB1BE);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            background-color:#ce9e9f ;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav{
+            background-color: #c7bec0;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.384);
+        }
+        
+        nav > a{
+            text-decoration: none;
+            margin-right: 7px;
+            color: #2D2D34;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color:#ce9e9f ;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px 0px;
+        }
+        article{
+            background-color: #c7bec0;
+            padding: 7px;
+        }
+        aside{
+            background-color: #BBC7A4;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        
+        /* Formatação para criar uma bola
+        
+        div#bola{
+            background-color: rgb(0, 0, 0);
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%; }
+        */
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Cabeçalho</h1>
+        <!-- Navegação (menu) -->
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+   </header> 
+   
+   <!--Conteúdo principal-->
+   <main>
+    <!--Seções-->
+    <section id="assuntos">
+        <p>Esportes, política e tech.</p>
+    </section>
+    <section id="noticias">
+        <!--Artigos-->
+        <article>
+            <h2>Notícia sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut provident saepe dolores labore et! Deserunt est veniam eveniet eos, aspernatur nulla accusamus repellendus ea consequatur dolores beatae iusto, quas voluptate!</p>
+            <!-- Sub-Artigo -->
+            <aside>
+                <p>Artigo escrito por Paulo Guilherme.</p>
+            </aside>
+        </article>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, voluptates? Vel eum quod officiis quo, ipsum repellat numquam magnam asperiores alias hic mollitia ipsam omnis aspernatur enim pariatur quasi obcaecati!</p>
+        </article>
+    </section>
+   </main>
+   <footer>
+    <p>Site programado por CursoemVideo</p></footer>
+    
+    <!-- Div alternativa para criar uma bola
+        <div id="bola"></div> 
+    -->
+</body>
+</html>
